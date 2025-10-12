@@ -9,7 +9,7 @@
 ### 1. Clone & Install
 
 ```bash
-git clone (https://github.com/Einsteinke-hub/Seed-smart-map.git)
+git clone https://github.com/Einsteinke-hub/Seed-smart-map.git
 cd reforest-ai
 npm install
 ```
