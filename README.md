@@ -29,15 +29,14 @@
 
 ## 🌐 Live Website
 
-Check out the live project here: [https://seed-smart-map.example.com](https://seed-smart-map.vercel.app/)
-*(Replace with your actual live website URL)*
+Check out the live project here: [https://seed-smart-map.vercel.app/](https://seed-smart-map.vercel.app/)
 
 ---
 
 ## ✉️ Contact
 
-For inquiries or support, email us at: seed-smart-map@example.com
-*(Replace with your actual contact email)*
+For inquiries or support, email us at: einstenmarto30@gmail.com
+
 
 ---
 
