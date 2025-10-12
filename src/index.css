@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 95 60% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 95 60% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 95 60% 12%;
+
+    --primary: 95 55% 20%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 95 60% 35%;
+
+    --secondary: 30 40% 45%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 95 20% 94%;
+    --muted-foreground: 95 15% 40%;
+
+    --accent: 140 70% 45%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 95 20% 88%;
+    --input: 95 20% 88%;
+    --ring: 95 55% 20%;
+
+    --radius: 0.75rem;
+
+    --gradient-forest: linear-gradient(135deg, hsl(95, 55%, 20%), hsl(95, 60%, 35%));
+    --gradient-earth: linear-gradient(135deg, hsl(30, 40%, 45%), hsl(35, 45%, 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(95, 55%, 15%), hsl(95, 60%, 30%), hsl(140, 70%, 35%));
+    --shadow-elevated: 0 10px 30px -10px hsl(95, 55%, 20% / 0.3);
+    --shadow-glow: 0 0 40px hsl(95, 60%, 35% / 0.2);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 95 40% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 95 35% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 95 35% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 95 60% 45%;
+    --primary-foreground: 95 60% 12%;
+    --primary-glow: 95 70% 55%;
+
+    --secondary: 30 50% 50%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 95 30% 18%;
+    --muted-foreground: 95 20% 65%;
+
+    --accent: 140 70% 50%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 95 30% 22%;
+    --input: 95 30% 22%;
+    --ring: 95 60% 45%;
+
+    --gradient-forest: linear-gradient(135deg, hsl(95, 60%, 25%), hsl(95, 70%, 40%));
+    --gradient-earth: linear-gradient(135deg, hsl(30, 50%, 40%), hsl(35, 55%, 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(95, 60%, 20%), hsl(95, 70%, 35%), hsl(140, 70%, 40%));
+    --shadow-elevated: 0 10px 30px -10px hsl(0, 0%, 0% / 0.5);
+    --shadow-glow: 0 0 40px hsl(95, 70%, 40% / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
