@@ -27,6 +27,20 @@
 
 ---
 
+## 🌐 Live Website
+
+Check out the live project here: [https://seed-smart-map.example.com](https://seed-smart-map.vercel.app/)
+*(Replace with your actual live website URL)*
+
+---
+
+## ✉️ Contact
+
+For inquiries or support, email us at: seed-smart-map@example.com
+*(Replace with your actual contact email)*
+
+---
+
 ## ✨ Features
 
 - **Interactive Mapping**  
