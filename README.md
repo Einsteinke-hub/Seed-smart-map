@@ -6,50 +6,49 @@
 
 ## 🚀 Quick Start
 
-### 1. Clone & Install
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Einsteinke-hub/Seed-smart-map.git
+   cd Seed-smart-map
+   ```
 
-```bash
-git clone https://github.com/Einsteinke-hub/Seed-smart-map.git
-cd reforest-ai
-npm install
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### 2. Environment Setup
+3. **Configure environment variables**
+   - Set up your Supabase credentials and any required API keys in a `.env` file or your deployment provider.
 
-Create a `.env` file in the project root:
-
-```
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_key
-```
-
-#### Get Supabase Credentials
-
-- Create a project at [Supabase](https://supabase.com/)
-- Copy URL and anon key from **Settings > API**
-- Run the database schema migrations from `supabase/migrations/`
-
-### 3. Start Development
-
-```bash
-npm run dev
-```
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
 ---
 
 ## ✨ Features
 
 - **Interactive Mapping**  
-  Draw project areas with Leaflet.
+  Draw and define project areas with Leaflet.
 
 - **AI Species Recommendations**  
-  Smart matching based on soil & climate.
+  Smart matching based on soil, climate, and environmental data.
 
-- **Project Dashboard**  
-  Manage reforestation initiatives.
+- **Priority Assessment**  
+  Identify high-priority zones by biodiversity corridors and erosion risk.
+
+- **Project Dashboard & Management**  
+  Save, manage, and export your reforestation projects for implementation.
 
 - **Species Database**  
   Comprehensive tree data with environmental impact scoring.
+
+- **Action Plans**  
+  Generate detailed planting strategies with density and survival predictions.
+
+- **Environmental Data**  
+  Access GIS data including topography, soil types, and climate patterns.
 
 ---
 
@@ -71,7 +70,7 @@ npm run build
 vercel --prod
 ```
 
-Set environment variables in your deployment platform.
+- Set environment variables in your deployment platform.
 
 ---
 
@@ -82,6 +81,18 @@ If the app is not working after cloning:
 - Ensure environment variables are set correctly
 - Verify your Supabase project is configured
 - Run `npm install` to ensure dependencies are installed
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open issues or pull requests to improve features, fix bugs, or suggest enhancements.
+
+---
+
+## 📄 License
+
+MIT
 
 ---
 
